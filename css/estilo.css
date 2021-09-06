@@ -102,3 +102,7 @@ footer p {
   grid-column-gap: 130px;
   grid-row-gap: 10px;
 }
+
+.git {
+  color: blue;
+}
