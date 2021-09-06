@@ -1,0 +1,104 @@
+.paddingTB {
+  padding: 50px 0;
+}
+
+.bgFoot {
+  background: linear-gradient(to top, lightgreen, grey, transparent);
+}
+
+/* CSS JS PARA VEHICULOS */
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Css Grid Para Galeria */
+
+.vehNos {
+  color: black;
+  text-align: center;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  background: linear-gradient(to right, lightblue, blue);
+}
+
+.kawaText {
+  display: grid;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 20px;
+  background: burlywood;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 125px;
+  justify-items: center;
+}
+
+.precio {
+  color: crimson;
+  font-size: 30px;
+
+}
+
+.encabeza2 {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to left, white, red, blue);
+}
+
+.encabeza3 {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to left, white, red, blue);
+}
+
+.encabeza4 {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to left, white, red, blue);
+}
+
+.encabeza6 {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to left, white, red, blue);
+}
+
+.kawaGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr) 0fr;
+  grid-column-gap: 130px;
+  grid-row-gap: 10px;
+}
