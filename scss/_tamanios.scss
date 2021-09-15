@@ -1,0 +1,47 @@
+$fullAncho: 100%;
+
+.col-lg-6 {
+    width: $fullAncho/2;
+}
+/* Te lo dejo en comentarios para que lo veas samuel
+$vista: desktop;
+
+body {
+    @if $vista==desktop {
+        h1 {
+            font-size: 5em;
+        }
+
+        h2 {
+            font-size: 4em;
+        }
+
+        @else if $vista==mobile {
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+        }
+
+        @else {
+            h1 {
+                font-size: 50px;
+            }
+
+            h2 {
+                font-size: 40px
+            }
+        }
+    }
+} */
+
+
+@for $i from 1 through 10 {
+    .col-#{$i} {
+        width: 10%*$i;
+    }
+}

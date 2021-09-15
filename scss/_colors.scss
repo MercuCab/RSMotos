@@ -1,0 +1,57 @@
+/* VARIABLES */
+$azul:blue;
+$rojo: red;
+$negro:rgb (0, 0, 0);
+$celeste: lightblue;
+$violeta: violet;
+$amarillo: yellow;
+
+.col-lg-6 {
+    h1 {
+        color: $rojo
+    }
+}
+
+.titulo {
+    background-color: $celeste;
+
+    &__desc {
+        color: $azul;
+    }
+
+    &__subtitulo {
+        color: $violeta;
+    }
+
+    &__colorDesc {
+        color: $amarillo;
+    }
+}
+.col-lg-6 {
+    h3{
+        color: $amarillo;
+    }
+    background: $celeste;
+
+.pie {
+    &__titulo {
+        color: $celeste;
+    }
+    &__subtitulo {
+        color:$amarillo;
+    }
+    &__colorDes {
+        color: $rojo;
+    }
+    &__descSombreado {
+        background: $violeta;
+    }
+}
+
+}
+
+@each $color in $azul, $rojo, $celeste {
+    .#{$color}{
+        color:#{$color};
+    }
+}

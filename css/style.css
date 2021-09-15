@@ -1,0 +1,208 @@
+/* VARIABLES */
+.col-lg-6 h1 {
+  color: red;
+}
+
+.titulo {
+  background-color: lightblue;
+}
+
+.titulo__desc {
+  color: blue;
+}
+
+.titulo__subtitulo {
+  color: violet;
+}
+
+.titulo__colorDesc {
+  color: yellow;
+}
+
+.col-lg-6 {
+  background: lightblue;
+}
+
+.col-lg-6 h3 {
+  color: yellow;
+}
+
+.col-lg-6 .pie__titulo {
+  color: lightblue;
+}
+
+.col-lg-6 .pie__subtitulo {
+  color: yellow;
+}
+
+.col-lg-6 .pie__colorDes {
+  color: red;
+}
+
+.col-lg-6 .pie__descSombreado {
+  background: violet;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.lightblue {
+  color: lightblue;
+}
+
+p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.col-10 {
+  width: 100%;
+}
+
+.col-lg-6 {
+  width: 50%;
+}
+
+/* Te lo dejo en comentarios para que lo veas samuel
+$vista: desktop;
+
+body {
+    @if $vista==desktop {
+        h1 {
+            font-size: 5em;
+        }
+
+        h2 {
+            font-size: 4em;
+        }
+
+        @else if $vista==mobile {
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+        }
+
+        @else {
+            h1 {
+                font-size: 50px;
+            }
+
+            h2 {
+                font-size: 40px
+            }
+        }
+    }
+} */
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.col-10 {
+  width: 100%;
+}
+
+/* BOTONERA */ 
+.btn, .btn--aceptar, .btn--cancelar, .btn--nada {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  text-align: justify;
+}
+
+.btn--aceptar {
+  background-color: green;
+  color: white;
+}
+
+.btn--cancelar {
+  background-color: red;
+  color: white;
+}
+
+.btn--nada {
+  background-color: blue;
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
