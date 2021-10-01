@@ -15,6 +15,20 @@
   background-color: #fff;
 }
 
+.mvhover {
+  width: 380px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  transition: width 1s;
+}
+.mvhover:hover{
+  width: 440px;
+}
+.scale {
+  transform: scale(-1, 1)
+}
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 6rem;
