@@ -95,7 +95,7 @@ footer p {
   background: linear-gradient(to left, white, red, blue);
 }
 
-.kawaGrid {
+.kawagrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr) 0fr;
@@ -105,4 +105,24 @@ footer p {
 
 .git {
   color: blue;
+}
+
+.mvhover {
+  width: 500px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  transition: width 1s;
+}
+.mvhover:hover{
+  width: 550px;
+}
+.scale {
+  transform: scale(-1, 1)
+}
+.nav-item:hover{
+  width: px;
+}
+.nav-item {
+  transform: scale( 1 , 1)
 }
