@@ -58,7 +58,7 @@ footer p {
   text-align: center;
   font-size: 22px;
   border-radius: 20px;
-  background: burlywood;
+  
   align-items: center;
   margin-top: 10px;
   margin-bottom: 125px;
@@ -108,14 +108,14 @@ footer p {
 }
 
 .mvhover {
-  width: 500px;
+  width: 380px;
   height: auto;
   display: flex;
   margin: auto;
   transition: width 1s;
 }
 .mvhover:hover{
-  width: 550px;
+  width: 440px;
 }
 .scale {
   transform: scale(-1, 1)
