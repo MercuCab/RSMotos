@@ -22,9 +22,11 @@
   margin: auto;
   transition: width 1s;
 }
-.mvhover:hover{
+
+.mvhover:hover {
   width: 440px;
 }
+
 .scale {
   transform: scale(-1, 1)
 }
@@ -72,7 +74,7 @@ footer p {
   text-align: center;
   font-size: 22px;
   border-radius: 20px;
-  
+
   align-items: center;
   margin-top: 10px;
   margin-bottom: 125px;
@@ -111,16 +113,20 @@ footer p {
 
 .kawagrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr) 0fr;
-  grid-column-gap: 130px;
-  grid-row-gap: 10px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 20px;
+
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 125px;
+  justify-items: center;
 }
 
-.git {
-  color: blue;
+.kawaimg {
+  height: 410px;
+  width: 410px;
 }
-
 .mvhover {
   width: 380px;
   height: auto;
@@ -128,15 +134,22 @@ footer p {
   margin: auto;
   transition: width 1s;
 }
-.mvhover:hover{
+
+.mvhover:hover {
   width: 440px;
 }
+
 .scale {
   transform: scale(-1, 1)
 }
-.nav-item:hover{
+
+.nav-item:hover {
   width: px;
 }
+
 .nav-item {
-  transform: scale( 1 , 1)
+  transform: scale(1, 1)
+}
+.comprar {
+  text-align: center;
 }
